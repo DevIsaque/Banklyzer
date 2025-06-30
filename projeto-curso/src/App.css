@@ -1,0 +1,29 @@
+body, #root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+}
+
+.navbar-link {
+  color: #fff;
+}
+
+.navbar-link.active {
+  color: #b700ff;
+  border-bottom: 2px solid #b700ff;
+}
+
+.navbar-link:hover {
+  color: #b700ff;
+}
+
