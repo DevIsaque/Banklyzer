@@ -23,7 +23,7 @@ Estilização dos componentes de forma isolada.
 ### Fetch API: 
 Comunicação com backend simulado para persistência dos projetos.
 
-**US**
+**🇺🇸**
 # Banklyzer
 ## About the Project
 Banklyzer is a project developed in React with the aim of managing projects and budgets in a simple and intuitive way. Inspired by modern React tutorials, the system allows users to create, view and manage projects, simulating a financial dashboard for companies or freelancers.
