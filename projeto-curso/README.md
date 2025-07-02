@@ -25,7 +25,7 @@ Comunicação com backend simulado para persistência dos projetos.
 ## About the Project
 Banklyzer is a project developed in React with the aim of managing projects and budgets in a simple and intuitive way. Inspired by modern React tutorials, the system allows users to create, view and manage projects, simulating a financial dashboard for companies or freelancers.
 ## Features
-### Project registration: Create new projects by entering their name, budget and category.
+### Project registration: ## Create new projects by entering their name, budget and category.
 ### Project Listing: View all registered projects on a dedicated page.
 ### Intuitive Navigation: Use the navigation bar to access the Home, Projects, Company and Contact pages.
 ### Visual feedback: When creating a project, the user is automatically redirected to the projects page and receives a success message.
