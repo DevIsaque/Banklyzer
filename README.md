@@ -1,4 +1,4 @@
-# Banklyzer
+**🇧🇷** # Banklyzer
 ## Sobre o Projeto
 O Banklyzer é um projeto desenvolvido em React com o objetivo de gerenciar projetos e orçamentos de forma simples e intuitiva. Inspirado em tutoriais modernos de React, o sistema permite que o usuário crie, visualize e gerencie projetos, simulando um painel de controle financeiro para empresas ou freelancers.
 ## Funcionalidades
