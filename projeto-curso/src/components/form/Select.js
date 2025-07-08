@@ -11,7 +11,7 @@ function Select({ text, name, options, handleOnChange, value}){
                 onChange={handleOnChange} 
                 value={value || ""} 
             >
-                <option>
+                <option value="">
                     Selecione uma opção
                 </option>
                 {options && options.map((option) => (

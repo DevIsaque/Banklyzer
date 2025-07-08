@@ -39,12 +39,12 @@
 }
 
 .active {
-  color: #b700ff;
-  background: #fff;
-  border-bottom: 2px solid #b700ff;
+  color: #ce79ff;
+  background: #333;
+  border-bottom: 2px solid #ce79ff;
 }
 
 .item a:hover {
-  color: rgb(83, 0, 109);
+  color: #ce79ff;
   background: none;
 } 

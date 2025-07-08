@@ -1,0 +1,108 @@
+.projectCard {
+    background: #2d2d2d;
+    padding: 1.2rem;
+    border: 1.5px solid #444;
+    border-radius: 8px;
+    width: 320px;
+    margin: 0.8rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: box-shadow 0.2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.titleBar {
+    background-color: #222;
+    color: #ce79ff;
+    padding: 0.6em 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 4px 4px 4px 4px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+.projectCard p {
+    margin: 0.3em 0;
+    color: #ffffff;
+}
+
+.project_card p {
+    
+    color: #cccccc;
+    margin-bottom: 1em;
+}
+
+.project_card p span{
+    font-weight: bold;
+}
+
+.category_text{
+    display: flex;
+    align-items: center;
+}
+
+.category_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.category_text .infra{
+    background-color: #ffaebc;
+}
+
+.category_text .design{
+    background-color: #a0e7e5;
+}
+
+.category_text .desenvolvimento{
+    background-color: #b4f8c8;
+}
+
+.category_text .planejamento{
+    background-color: #fbe7c6;
+}
+
+.project_card_actions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.project_card_actions a, .project_card_actions button{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: .9em;
+    padding: .6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.project_card_actions .svg{
+    margin-right: .5em;
+}
+
+.project_card_actions a:hover, .project_card_actions button:hover{
+    background-color: #222;
+    color: #ce79ff;
+}

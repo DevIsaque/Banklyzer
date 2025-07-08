@@ -1,0 +1,13 @@
+.project_container{
+    padding: 2em;
+}
+
+.tittle_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.tittle_container h1{
+    color: #ffffff;
+}

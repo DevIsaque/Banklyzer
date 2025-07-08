@@ -13,7 +13,7 @@ import Projects from './components/projects/Projects';
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <div className="App">
       <Navbar />
       <Container>
         <div className="app-content">

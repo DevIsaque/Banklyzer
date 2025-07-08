@@ -7,14 +7,18 @@
 .form_control label{
     margin-bottom: .6em;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .form_control input{
     padding: .7em;
-    border-radius: 0;
+    border-radius: 20px;
     border: none;
+    background-color: #333;
+    color: #ffffff;
+
 }
 
 .form_control input::placeholder{
-    color: #5c5c5c;
+    color: #999;
 }
