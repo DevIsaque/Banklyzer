@@ -1,14 +1,14 @@
 .btn{
-    background-color: #222;
-    color: white;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
     padding: 0.7em 1.2em;
     text-decoration: none;
     transition: 0.5s;
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover{
-    color: #ce79ff;
+    color: #ffffff;
 }

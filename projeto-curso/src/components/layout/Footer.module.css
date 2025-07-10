@@ -1,13 +1,36 @@
 .footer {
     width: 100%;
-    background: #222;
+    background: #080808;
     color: #ce79ff;
     text-align: center;
     padding: 20px 0 10px 0;
     font-size: 1.1em;
     font-weight: 500;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
-    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
     bottom: 0;
     left: 0;
+    border: none;
+    opacity: 1;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.image1{
+    width: 70px;
+}
+.image2{
+    width: 37px;
+}
+
+.image3{
+    margin-left: 12px;
+    
+    width: 45px;
 }

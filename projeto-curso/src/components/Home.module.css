@@ -8,21 +8,22 @@
 }
 
 .home_container h1{
-    font-size: 2.5em;
+    font-size: 4em;
     margin-bottom: .5em;
     color: #fff;    
 }
 
 .home_container h1 span{
-    color: #ce79ff;
+    color: #000000;
     padding: 0 .4em;
-    background-color: #222;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
     
 }
 
 .home_container p{
     margin-bottom:  1.5em;
     color: #fff;
+    font-size: 1.5em;
 }
 
 .home_container img {

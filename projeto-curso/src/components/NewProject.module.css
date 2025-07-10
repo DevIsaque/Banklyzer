@@ -7,7 +7,13 @@
 
 .newproject_container h1{
     margin-bottom: 0.5em;
-    color: #fff;
+    
+    font-size: 2.5em;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .newproject_container p{

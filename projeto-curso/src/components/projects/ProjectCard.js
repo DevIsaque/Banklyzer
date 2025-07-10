@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom';
 
 function ProjectCard({id, name, budget, category, handleRemove}){
     return(
-        <div className={styles.projectCard}>
+        <div className={styles.cardGradient}>
+          <div className={styles.projectCard}>
             <div className={styles.titleBar}>{name}</div>
             <p><span>Orçamento:</span> R${budget}</p>
             <p className={styles.category_text}>
@@ -17,8 +18,8 @@ function ProjectCard({id, name, budget, category, handleRemove}){
                 <button>
                     <BsFillTrashFill/> Excluir
                 </button>
-                
             </div>
+          </div>
         </div>
     )
 }
