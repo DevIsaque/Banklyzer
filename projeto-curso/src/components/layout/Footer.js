@@ -1,7 +1,7 @@
 import styles from './Footer.module.css';
-import github from '../../img/GitHub-Symbol.png';
-import instagram from '../../img/instagram.png';
-import linkedin from '../../img/linkedin4.png';
+import github from '../../img/github-branco.png';
+import instagram from '../../img/instagram-branco.png';
+import linkedin from '../../img/linkedin-branco.png';
 
 function Footer() {
     return (
