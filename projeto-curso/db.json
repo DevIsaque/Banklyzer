@@ -1,62 +1,7 @@
 {
   "projects": [
     {
-      "id": "6bed",
-      "name": "bosta",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "6a66",
-      "name": "bosta",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "d527",
-      "name": "bosta",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "74f4",
-      "name": "bosta",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "4e23",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "0bd7",
-      "name": "Isaque",
-      "budget": "989",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
       "cost": 0,
       "services": []
     },
@@ -81,17 +26,6 @@
     },
     {
       "id": "0f67",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "2ffc",
-      "name": "Isaque",
-      "budget": "300",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
       "cost": 0,
       "services": []
     },
@@ -201,29 +135,7 @@
       "services": []
     },
     {
-      "id": "677e",
-      "name": "Isaque",
-      "budget": "4555",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "76c6",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "46a5",
-      "name": "merda",
-      "budget": "1231231",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
       "cost": 0,
       "services": []
     },
@@ -238,45 +150,12 @@
       "services": []
     },
     {
-      "id": "e4b9",
-      "name": "Isaque",
-      "budget": "23132",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "2559",
       "cost": 0,
       "services": []
     },
     {
       "id": "c97a",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "371a",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "name": "Isaque",
-      "budget": "2500",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "ff10",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "budget": "1231341",
-      "name": "Isaque",
       "cost": 0,
       "services": []
     },
@@ -336,17 +215,6 @@
       "services": []
     },
     {
-      "id": "7120",
-      "name": "Isaque",
-      "budget": "1412",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "2d4b",
       "cost": 0,
       "services": []
@@ -378,6 +246,142 @@
     },
     {
       "id": "5b9c",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c37c",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "77f3",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "ecbe",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "855d",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8e85",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "77f1",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "02a3",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "a90f",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d353",
+      "name": "Isaque",
+      "budget": "12000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "ad9e",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "af16",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "7d8a",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8318",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "926b",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d2b3",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "2576",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "bf35",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "cf3e",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c961",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "614e",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8631",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "2285",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "e2ba",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "bf73",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b5c7",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "de57",
       "cost": 0,
       "services": []
     }

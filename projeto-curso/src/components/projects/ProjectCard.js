@@ -3,6 +3,11 @@ import {BsPencil, BsFillTrashFill} from 'react-icons/bs';
 import {Link} from 'react-router-dom';
 
 function ProjectCard({id, name, budget, category, handleRemove}){
+    const remove = (e) => {
+        e.preventDefault(); // Prevent default form submission behavior //
+        handleRemove(id); // Call the handleRemove function with the project ID //
+    }
+
     return(
         <div className={styles.cardGradient}>
           <div className={styles.projectCard}>
@@ -15,7 +20,7 @@ function ProjectCard({id, name, budget, category, handleRemove}){
                 <Link to="/">
                     <BsPencil/> Editar
                 </Link>
-                <button>
+                <button onClick={remove}> 
                     <BsFillTrashFill/> Excluir
                 </button>
             </div>

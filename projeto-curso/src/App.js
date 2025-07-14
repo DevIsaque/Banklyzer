@@ -13,19 +13,17 @@ import Projects from './components/projects/Projects';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-wrapper">
       <Navbar />
-      <Container>
-        <div className="app-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="/company" element={<Company />} />
-            <Route path="/newproject" element={<NewProject />} />
-          </Routes>
-        </div>
-      </Container>
+      <div className="app-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/newproject" element={<NewProject />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );

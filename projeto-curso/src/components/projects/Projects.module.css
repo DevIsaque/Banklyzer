@@ -2,12 +2,32 @@
     padding: 2em;
 }
 
-.tittle_container{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
+.tittle_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  
 }
 
 .tittle_container h1{
     color: #ffffff;
+}
+
+.message {
+  text-align: center;
+  margin-top: 0.5rem;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+  font-size: 1.1rem;
+}
+
+.tittle_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
