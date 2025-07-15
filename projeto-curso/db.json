@@ -2,21 +2,25 @@
   "projects": [
     {
       "id": "4e23",
+      "name": "Projeto 1",
       "cost": 0,
       "services": []
     },
     {
       "id": "8aef",
+      "name": "Projeto 2",
       "cost": 0,
       "services": []
     },
     {
       "id": "a94d",
+      "name": "Projeto 3",
       "cost": 0,
       "services": []
     },
     {
       "id": "96ae",
+      "name": "Projeto 4",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -26,226 +30,271 @@
     },
     {
       "id": "0f67",
+      "name": "Projeto 5",
       "cost": 0,
       "services": []
     },
     {
       "id": "311f",
+      "name": "Projeto 6",
       "cost": 0,
       "services": []
     },
     {
       "id": "b523",
+      "name": "Projeto 7",
       "cost": 0,
       "services": []
     },
     {
       "id": "d5af",
+      "name": "Projeto 8",
       "cost": 0,
       "services": []
     },
     {
       "id": "5ec3",
+      "name": "Projeto 9",
       "cost": 0,
       "services": []
     },
     {
       "id": "12ff",
+      "name": "Projeto 10",
       "cost": 0,
       "services": []
     },
     {
       "id": "1149",
+      "name": "Projeto 11",
       "cost": 0,
       "services": []
     },
     {
       "id": "2136",
+      "name": "Projeto 12",
       "cost": 0,
       "services": []
     },
     {
       "id": "bbe8",
+      "name": "Projeto 13",
       "cost": 0,
       "services": []
     },
     {
       "id": "3616",
+      "name": "Projeto 14",
       "cost": 0,
       "services": []
     },
     {
       "id": "5ad1",
+      "name": "Projeto 15",
       "cost": 0,
       "services": []
     },
     {
       "id": "67c0",
+      "name": "Projeto 16",
       "cost": 0,
       "services": []
     },
     {
       "id": "ef09",
+      "name": "Projeto 17",
       "cost": 0,
       "services": []
     },
     {
       "id": "4b13",
+      "name": "Projeto 18",
       "cost": 0,
       "services": []
     },
     {
       "id": "b835",
+      "name": "Projeto 19",
       "cost": 0,
       "services": []
     },
     {
       "id": "cd95",
+      "name": "Projeto 20",
       "cost": 0,
       "services": []
     },
     {
       "id": "9904",
+      "name": "Projeto 21",
       "cost": 0,
       "services": []
     },
     {
       "id": "d87f",
+      "name": "Projeto 22",
       "cost": 0,
       "services": []
     },
     {
       "id": "c27b",
+      "name": "Projeto 23",
       "cost": 0,
       "services": []
     },
     {
       "id": "6259",
+      "name": "Projeto 24",
       "cost": 0,
       "services": []
     },
     {
       "id": "a6b3",
+      "name": "Projeto 25",
       "cost": 0,
       "services": []
     },
     {
       "id": "1864",
+      "name": "Projeto 26",
       "cost": 0,
       "services": []
     },
     {
       "id": "76c6",
+      "name": "Projeto 27",
       "cost": 0,
       "services": []
     },
     {
       "id": "0f04",
+      "name": "Projeto 28",
       "cost": 0,
       "services": []
     },
     {
       "id": "ace2",
+      "name": "Projeto 29",
       "cost": 0,
       "services": []
     },
     {
       "id": "2559",
+      "name": "Projeto 30",
       "cost": 0,
       "services": []
     },
     {
       "id": "c97a",
+      "name": "Projeto 31",
       "cost": 0,
       "services": []
     },
     {
       "id": "1cdd",
+      "name": "Projeto 32",
       "cost": 0,
       "services": []
     },
     {
       "id": "957a",
+      "name": "Projeto 33",
       "cost": 0,
       "services": []
     },
     {
       "id": "ee84",
+      "name": "Projeto 34",
       "cost": 0,
       "services": []
     },
     {
       "id": "a84d",
+      "name": "Projeto 35",
       "cost": 0,
       "services": []
     },
     {
       "id": "df29",
+      "name": "Projeto 36",
       "cost": 0,
       "services": []
     },
     {
       "id": "9914",
+      "name": "Projeto 37",
       "cost": 0,
       "services": []
     },
     {
       "id": "2291",
+      "name": "Projeto 38",
       "cost": 0,
       "services": []
     },
     {
       "id": "57bd",
+      "name": "Projeto 39",
       "cost": 0,
       "services": []
     },
     {
       "id": "436e",
+      "name": "Projeto 40",
       "cost": 0,
       "services": []
     },
     {
       "id": "cf9c",
+      "name": "Projeto 41",
       "cost": 0,
       "services": []
     },
     {
       "id": "deab",
+      "name": "Projeto 42",
       "cost": 0,
       "services": []
     },
     {
       "id": "2d4b",
+      "name": "Projeto 43",
       "cost": 0,
       "services": []
     },
     {
       "id": "8b85",
+      "name": "Projeto 44",
       "cost": 0,
       "services": []
     },
     {
       "id": "f1f8",
+      "name": "Projeto 45",
       "cost": 0,
       "services": []
     },
     {
       "id": "092d",
+      "name": "Projeto 46",
       "cost": 0,
       "services": []
     },
     {
       "id": "747d",
+      "name": "Projeto 47",
       "cost": 0,
       "services": []
     },
     {
       "id": "21c6",
+      "name": "Projeto 48",
       "cost": 0,
       "services": []
     },
     {
       "id": "5b9c",
+      "name": "Projeto 49",
       "cost": 0,
       "services": []
     },
@@ -382,6 +431,26 @@
     },
     {
       "id": "de57",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "437f",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d0a6",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "01e5",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b3bc",
       "cost": 0,
       "services": []
     }
