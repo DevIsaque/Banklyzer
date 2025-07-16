@@ -1,0 +1,89 @@
+.project_details {
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.project_details h1,
+.project_datails h2,
+.project_details p {
+    margin-bottom: 1em;
+}
+
+.project_details_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.project_details h1{
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    color: black;
+    padding: 0.4em;
+    position: relative;
+    margin: 0;
+    
+    
+}
+
+.project_details h1::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    border-radius: 2px;
+}
+
+.project_details span{
+    font-weight: bold;
+}
+
+.details_container,
+.service_form_container{
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.details_container::after,
+.service_form_container::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    border-radius: 2px;
+}
+
+.btn{
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0.9em;
+    margin-left: 48em ;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.project_info{
+    width: 100% ;
+}
+
