@@ -340,11 +340,11 @@
     },
     {
       "id": "d353",
-      "name": "Isaque",
+      "name": "isaque  louca",
       "budget": "12000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []

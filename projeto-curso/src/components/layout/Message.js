@@ -1,34 +1,31 @@
+
 import styles from './Message.module.css';
 import {useState, useEffect} from 'react';
 
-function Message ({type, msg}){
-
+function Message ({type, msg, onClose}){
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
-
-        if(!msg){                    // condicional que verifica se há mensagem
+        if(!msg){
             setVisible(false);
-            return
-        }else{
+            return;
+        } else {
             setVisible(true);
         }
-
-        const timer = setTimeout(() => {   // eliminar mensagem depois de 3 segundos
+        const timer = setTimeout(() => {
             setVisible(false);
+            if (onClose) onClose();
         }, 3000);
-
-        return () => clearTimeout(timer); // limpar o timer quando componente for removido
-
-    }, [msg]);
+        return () => clearTimeout(timer);
+    }, [msg, onClose]);
 
     return (<>
     {visible && (
-        <div className={`${`styles.message`} ${styles[type]}`}>
+        <div className={`${styles.message} ${styles[type]}`}>
             {msg}
         </div>
     )}
-    </>)
+    </>);
 }
 
 export default Message;

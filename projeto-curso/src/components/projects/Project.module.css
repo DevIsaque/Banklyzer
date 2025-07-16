@@ -1,9 +1,39 @@
+@media (max-width: 700px) {
+  .project_details {
+    max-width: 98vw;
+    padding: 1em 0.5em;
+  }
+  .project_details_header {
+    flex-direction: column;
+    gap: 1em;
+    align-items: stretch;
+    width: 100%;
+  }
+  .project_details h1 {
+    font-size: inherit;
+    min-width: 200px;
+    width: fit-content;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .btn {
+    width: fit-content;
+    font-size: inherit;
+    margin-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 .project_details {
     padding: 2em;
-    align-items: center;
-    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
     display: flex;
-    
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .project_details h1,
@@ -14,9 +44,11 @@
 
 .project_details_header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 1em;
+    gap: 3em;
+    width: 100%;
 }
 
 .project_details h1{
@@ -25,20 +57,7 @@
     padding: 0.4em;
     position: relative;
     margin: 0;
-    
-    
-}
-
-.project_details h1::after {
-    content: "";
-    display: block;
-    height: 4px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
-    border-radius: 2px;
+    white-space: nowrap;
 }
 
 .project_details span{
@@ -76,7 +95,9 @@
     font-weight: bold;
     font-size: 1em;
     margin-bottom: 0.9em;
-    margin-left: 48em ;
+    width: fit-content;
+    white-space: nowrap;
+    margin-left: 15em;
 }
 
 .btn:hover{
