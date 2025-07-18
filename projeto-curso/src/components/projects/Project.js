@@ -13,6 +13,7 @@ function Project() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [showProjectForm, setShowProjectForm] = useState(false);
+    const [showServiceForm, setShowServiceForm] = useState(false);
     const [message, setMessage] = useState();
     const [type, setType] = useState();
 
@@ -32,6 +33,8 @@ function Project() {
     }, [id]);
 
     function editPost(project) {
+        setMessage('');
+
         // budget validation
         if (project.budget < project.cost) {
             setMessage('O orçamento não pode ser menor que o custo do projeto.');
@@ -60,6 +63,10 @@ function Project() {
         setShowProjectForm(!showProjectForm);
     }
 
+    function toggleServiceForm() {
+        setShowServiceForm(!showServiceForm);
+    }
+
     
     if (!project || !project.name) return <p>Projeto não encontrado.</p>;
 
@@ -69,6 +76,7 @@ function Project() {
             <div className={styles.project_details}>
                 {message && <Message type={type} msg={message} onClose={() => { setMessage(undefined); setType(undefined); }} />}
                 <Container customClass="column">
+                    {/* Header: Título e botão editar */}
                     <div className={styles.details_container}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1em' }}>
                             <h1 style={{ margin: 0 }}>{`Projeto: ${project.name}`}</h1>
@@ -76,6 +84,7 @@ function Project() {
                                 {!showProjectForm ? 'Editar Projeto' : 'Fechar'} 
                             </button>
                         </div>
+                        {/* Informações do projeto */}
                         {!showProjectForm ? (
                             <div className={styles.project_info}>
                                 <p>
@@ -90,15 +99,37 @@ function Project() {
                             </div>
                         ) : (
                             <div className={styles.project_info}>
-                                <p>
-                                    <ProjectForm 
-                                        handleSubmit={editPost} 
-                                        btnText='Concluir Edição'
-                                        projectData={project}
-                                    />
-                                </p>
+                                <ProjectForm 
+                                    handleSubmit={editPost} 
+                                    btnText='Concluir Edição'
+                                    projectData={project}
+                                />
                             </div>
                         )}
+                    </div>
+                    {/* Linha divisória */}
+                    <hr style={{ margin: '2em 0 1em 0', border: 0, borderTop: '2px solid #e0e0e0' }} />
+                    {/* Adicione um serviço + botão na mesma linha */}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1em' }}>
+                        <h2 style={{ margin: 0 }}>Adicione um serviço:</h2>
+                        <button onClick={toggleServiceForm} className={styles.buttons_two}>
+                            {!showServiceForm ? 'Adicionar serviço' : 'Fechar'} 
+                        </button>
+                    </div>
+                    {/* Formulário de serviço (quando aberto) */}
+                    {showServiceForm && (
+                        <div className={styles.project_info}>
+                            formulario do serviço
+                        </div>
+                    )}
+                    {/* Linha divisória colorida logo abaixo do adicionar serviço */}
+                    <hr style={{ margin: '2em 0 1em 0', border: 0, borderTop: '2px solid #ffd900' }} />
+                    {/* Agora, abaixo, a seção de Serviços */}
+                    <div style={{ marginTop: '2em' }}>
+                        <h2>Serviços</h2>
+                        <Container customClass="start">
+                            <p>Serviços</p>
+                        </Container>
                     </div>
                 </Container>
             </div>

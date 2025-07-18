@@ -23,9 +23,12 @@
 
 .error{
     width: auto;
-    color: #f87171;
-    background-color: #1f2937;
-    border-color: #374151;
+    background: linear-gradient(135deg, #ce79ff, #ff0062, #ffd900);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 1em;
     text-align: center;
+    font-weight: bold;
     display: inline-block;
 }
