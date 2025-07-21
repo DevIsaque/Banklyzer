@@ -1,0 +1,9 @@
+.serviceFormContainer {
+  max-width: 690px;
+  
+   
+  border-radius: 16px; 
+  flex-direction: column;
+  justify-content: center;
+
+} 

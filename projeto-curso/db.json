@@ -26,7 +26,8 @@
         "name": "Infra"
       },
       "cost": 0,
-      "services": []
+      "services": [],
+      "budget": "14000"
     },
     {
       "id": "0f67",
@@ -491,6 +492,11 @@
     },
     {
       "id": "48fb",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b7da",
       "cost": 0,
       "services": []
     }
