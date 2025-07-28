@@ -8,6 +8,8 @@ import ProjectForm from './ProjectForm';
 import Message from '../layout/Message';
 import ServiceForm from '../services/ServiceForm';
 import { parse, v4 as uuidv4 } from 'uuid';
+import ServiceCard from '../services/ServiceCard';
+
 
 function Project() {
     const { id } = useParams();
@@ -18,6 +20,7 @@ function Project() {
     const [showServiceForm, setShowServiceForm] = useState(false);
     const [message, setMessage] = useState();
     const [type, setType] = useState();
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
         fetch(`http://localhost:5000/projects/${id}`, {
@@ -29,6 +32,7 @@ function Project() {
         .then((resp) => resp.json())
         .then((data) => {
             setProject(data)
+            setServices(data.services);
         })
         .catch((err) => console.log)
         
@@ -89,9 +93,34 @@ function Project() {
         }).then(
             resp => resp.json()
         ).then((data) => {
-            console.log(data);
+            setShowServiceForm(false);
         }
         ).catch(err => console.log(err));
+    }
+
+    function removeService(id, cost) {
+        const servicesUpdated = project.services.filter(
+            (service) => service.id !== id
+        )
+
+        const projectUpdated = project;
+
+        projectUpdated.services = servicesUpdated;
+        projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost); 
+
+        fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+            method: 'PATCH',
+            headers:{
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(projectUpdated)
+        }).then((resp) => resp.json())
+        .then((data) => {
+            setProject(projectUpdated);
+            setServices(servicesUpdated);
+            setMessage('Serviço removido com sucesso!');
+        })
+        .catch(err => console.log(err));
     }
 
     function toggleProjectForm() {
@@ -167,7 +196,27 @@ function Project() {
                     <div style={{ marginTop: '2em' }}>
                         <h2>Serviços</h2>
                         <Container customClass="start">
-                            <p>Serviços</p>
+                            {services.length > 0 &&
+                            <div className={styles.services_list}>
+                                {services.map((service) => (
+                                    <ServiceCard
+                                        id={service.id}
+                                        name={service.name}
+                                        cost={service.cost}
+                                        description={service.description}
+                                        key={service.id}
+                                        handleRemove={removeService}
+                                    />
+                                ))
+                                }   
+                            </div>
+                                
+                                
+                            }
+                            {services.length === 0 && 
+                                <p>Não há serviços cadastrados.</p>
+                                
+                            }
                         </Container>
                     </div>
                 </Container>
